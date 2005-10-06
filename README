@@ -23,3 +23,10 @@ What does this bundle install?
 ==============================
 
 This bundle will bring in:
+
+YAML                         - YAML serialization language
+URI
+MKDoc::XML
+Petal                        - Perl Template Attribute Language
+Test::TAP::Model             - Model for smoke test resuls
+Test::TAP::HTMLMatrix        - Colorful smoke result report

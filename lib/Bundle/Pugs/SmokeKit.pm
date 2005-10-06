@@ -1,6 +1,6 @@
 package Bundle::Pugs::SmokeKit;
 
-$Bundle::Pugs::SmokeKit::VERSION = '0.01';
+$Bundle::Pugs::SmokeKit::VERSION = '0.02';
 
 1;
 __END__
