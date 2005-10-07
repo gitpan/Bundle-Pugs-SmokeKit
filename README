@@ -13,7 +13,7 @@ in the pugs build directory:
   make smoke
 
 You are encouraged to submit your results to the public smokeserver,
-especially if you run an uncommon platform:
+especially if you run on an uncommon platform:
 
   perl util/smokeserv/smoke-client.pl smoke.html
 
