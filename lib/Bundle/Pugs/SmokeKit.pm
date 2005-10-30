@@ -1,6 +1,6 @@
 package Bundle::Pugs::SmokeKit;
 
-$Bundle::Pugs::SmokeKit::VERSION = '0.03';
+$Bundle::Pugs::SmokeKit::VERSION = '0.04';
 
 1;
 __END__
@@ -11,15 +11,20 @@ Bundle::Pugs::SmokeKit - Bundle for running Pugs smoke tests
 
 =head1 SYNOPSIS
 
-  C<perl -MCPAN -e 'install Bundle::Pugs::SmokeKit'>
+  perl -MCPAN -e 'install Bundle::Pugs::SmokeKit'
 
 =head1 CONTENTS
 
 YAML                         - YAML serialization language
+
 URI
+
 MKDoc::XML
+
 Petal                        - Perl Template Attribute Language
+
 Test::TAP::Model             - Model for smoke test resuls
+
 Test::TAP::HTMLMatrix        - Colorful smoke result report
 
 =head1 DESCRIPTION
@@ -36,7 +41,7 @@ the following command in the pugs build directory:
   make smoke
 
 You are encouraged to submit your results to the public smokeserver,
-especially if you run an uncommon platform:
+especially if you run on an uncommon platform:
 
   perl util/smokeserv/smoke-client.pl smoke.html
 
@@ -46,7 +51,7 @@ L<Perl6::Pugs>, L<http://smoke.pugscode.org/>
 
 =head1 AUTHOR
 
-Gaal Yahas, E<lt>gaal@forum2.org<gt> and others.
+Gaal Yahas, E<lt>gaal@forum2.orgE<gt> and others.
 
 Please report any problems to the C<#perl6> channel on C<irc.freenode.org>.
 
