@@ -1,6 +1,6 @@
 package Bundle::Pugs::SmokeKit;
 
-$Bundle::Pugs::SmokeKit::VERSION = '0.04';
+$Bundle::Pugs::SmokeKit::VERSION = '0.05';
 
 1;
 __END__
@@ -27,6 +27,8 @@ Test::TAP::Model             - Model for smoke test resuls
 
 Test::TAP::HTMLMatrix        - Colorful smoke result report
 
+Best                         - Load best available module from a list 
+
 =head1 DESCRIPTION
 
 L<Perl6::Pugs> is an experimental implementation of Perl 6. It does
@@ -44,6 +46,9 @@ You are encouraged to submit your results to the public smokeserver,
 especially if you run on an uncommon platform:
 
   perl util/smokeserv/smoke-client.pl smoke.html
+
+NOTE - this bundle installs YAML.pm, but it is recommended to install
+YAML::Syck which is faster (but requires a c development environment).
 
 =head1 SEE ALSO
 
