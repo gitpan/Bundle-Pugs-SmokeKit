@@ -1,6 +1,9 @@
 Bundle::Pugs::SmokeKit
 ======================
 
+  ### This bundle is obsoleted in favor of Task::Smoke. ###
+  ### Please install that instead.                      ###
+
 Pugs is an experimental implementation of Perl 6. It does not have many
 prerequisites by itself: merely perl 5.6.1 or 5.8.3, and a decently
 new ExtUtils::MakeMaker.

@@ -1,6 +1,6 @@
 package Bundle::Pugs::SmokeKit;
 
-$Bundle::Pugs::SmokeKit::VERSION = '0.05';
+$Bundle::Pugs::SmokeKit::VERSION = '0.06';
 
 1;
 __END__
@@ -11,6 +11,8 @@ Bundle::Pugs::SmokeKit - Bundle for running Pugs smoke tests
 
 =head1 SYNOPSIS
 
+  ### This bundle is obsoleted in favor of Task::Smoke. ###
+  
   perl -MCPAN -e 'install Bundle::Pugs::SmokeKit'
 
 =head1 CONTENTS
