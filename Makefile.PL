@@ -10,3 +10,10 @@ WriteMakefile(
       (ABSTRACT_FROM  => 'lib/Bundle/Pugs/SmokeKit.pm', # retrieve abstract from module
        AUTHOR         => 'Gaal Yahas <gaal@forum2.org>') : ()),
 );
+
+warn <<".";
+
+*** Bundle::Pugs::SmokeKit has been obsoleted by Task::Smoke.
+    Please install that instead.
+
+.
